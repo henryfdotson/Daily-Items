@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1c38e !important;
+}
+
+div#head {
+  text-align: right;
+}
+
+div#book {
+  background: #fffef2;
+  height: 75%;
+  width: 50%;
+}
+
+.listItem,
+#head {
+  padding: 3% 10%;
+  border-bottom: 3px #bed8f5 solid;
+}
